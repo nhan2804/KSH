@@ -1,6 +1,6 @@
 /* header */
 .wrap__header{
-    background:rgb(209, 245, 50);
+    background:white;
 }
 .list__header{
     list-style-type: none;
@@ -32,14 +32,15 @@
     height: 40px;
 }
 .form__input{
+    border: 1px solid #ccc;
     outline: none;
-    border: none;
     width: 300px;
 }
 .form__submit{
     outline: none;
     border: none;
-    background: rgb(69, 164, 228);
+    /* background: rgb(69, 164, 228); */
+    background: rgb(102, 101, 109);
     color: white;
     width: 40px;
 }
@@ -75,7 +76,7 @@
     display: block;
 }
 .list__menu li:first-child{
-    color:rgb(245, 193, 22);
+    color:rgb(122, 223, 226);
 }
 .submenu{
     width: 200%;

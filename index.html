@@ -14,29 +14,37 @@
 </head>
 <body>
     <div class="web">
+        <div class="wrap__header pt-1 pb-1 sticky__pined">
+          <div class="container header__section1">
+              <img src="img/logo.png" class="logo" alt="">
+              <ul class="list__header">
+                  <li><i class="fas fa-align-left"></i> Giới thiệu</li>
+                  <li><i class="fas fa-award"></i> Chất lượng dịch vụ</li>
+                  <li><i class="fab fa-black-tie"></i> Sứ mệnh</li>
+              </ul>
+              <form class="form__search" action="">
+                  <input placeholder="Nhập từ khóa để tìm kiếm" class="form__input" type="text" name="" id="">
+                  <button class="form__submit"><i class="fas fa-search"></i></button>
+              </form>
+          </div>
+      </div>
         <div class="header">
-            <div class="wrap__header pt-1 pb-1">
-                <div class="container header__section1">
-                    <img src="img/logo.png" class="logo" alt="">
-                    <ul class="list__header">
-                        <li><i class="fas fa-align-left"></i> Giới thiệu</li>
-                        <li><i class="fas fa-award"></i> Chất lượng dịch vụ</li>
-                        <li><i class="fab fa-black-tie"></i> Sứ mệnh</li>
-                    </ul>
-                    <form class="form__search" action="">
-                        <input placeholder="Nhập từ khóa để tìm kiếm" class="form__input" type="text" name="" id="">
-                        <button class="form__submit"><i class="fas fa-search"></i></button>
-                    </form>
-                </div>
-            </div>
+            <!-- Đưa section 1 ra để dùng sticky :v cơ mà hình như sai r, để tui sửa lại -->
             <div style="background:rgb(102, 101, 109);" class="wrap__header">
                 <div class="container header__section2">
                     <ul class="list__menu p-0 m-0">
-                        <li>Trang chủ</li>
-                        <li>Sản phẩm <i class="fas fa-chevron-down"></i></li>
-                        <li>Các lĩnh vực <i class="fas fa-chevron-down"></i>
+                        <li class="item__menu">Trang chủ</li>
+                        <li class="item__menu">Sản phẩm <i class="fas fa-chevron-down"></i>
+                          <ul class="submenu p-0">
+                              <li >Hàng hóa Bla bla nè</li>
+                              <li>Lorem Suscipit nulla accusamus</li>
+                              <li>Bakemono Lorem is pud</li>
+                              <li>Ichika Natsukis</li>
+                          </ul>
+                        </li>
+                        <li class="item__menu">Các lĩnh vực <i class="fas fa-chevron-down"></i>
                             <ul class="submenu p-0">
-                                <li>Nội Thất văn phòng, trường học</li>
+                                <li >Nội Thất văn phòng, trường học</li>
                                 <li>Mặt hàng điện tử, điện lạnh</li>
                                 <li>Dịch vụ phát triển thị trường</li>
                                 <li>Phân phối bất động sản</li>
@@ -44,9 +52,9 @@
                                 <li>Giáo dục và đào tạo</li>
                             </ul>
                         </li>
-                        <li>Công trình <i class="fas fa-chevron-down"></i></li>
-                        <li>Tư vấn khách hàng</li>
-                        <li>Bất động sản</li>
+                        <li class="item__menu">Công trình <i class="fas fa-chevron-down"></i></li>
+                        <li class="item__menu">Tư vấn khách hàng</li>
+                        <li class="item__menu">Bất động sản</li>
                     </ul>
                 </div>
             </div>
@@ -144,6 +152,35 @@
               </div>
           </div>
           
+        </div>
+        <div class="container">
+          <div class="intro__service mt-4 mb-4">HÃY ĐỂ CHÚNG TÔI GIÚP BẠN</div>
+          <div class="row mb-4">
+            <div class="col-lg-3">
+              <div class="service">
+                <img class="img-fluid" src="img/team.png" alt="">
+                <h3>Chất lượng</h3>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="service">
+                <img class="img-fluid" src="img/team.png" alt="">
+                <h3>Uy tín</h3>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="service">
+                <img class="img-fluid" src="img/team.png" alt="">
+                <h3>Chuyên nghiệp</h3>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="service">
+                <img class="img-fluid" src="img/team.png" alt="">
+                <h3>Nhanh chóng</h3>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- footer -->
         <!-- <footer class="footer">
@@ -361,6 +398,17 @@
 
 </footer>
 <!-- Footer -->
+<div style="position: fixed; left: -2px; bottom: -2px; ; z-index: 99;" class="wrapper">
+  <div class="ring">
+      <a href="tel:+84367663090">
+          <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show">
+          <div class="coccoc-alo-ph-circle"></div>
+          <div class="coccoc-alo-ph-circle-fill"></div>
+          <div class="coccoc-alo-ph-img-circle"></div>
+      </div>
+      </a>
+  </div>
+</div>
         </div>
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

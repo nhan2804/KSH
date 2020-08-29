@@ -71,7 +71,7 @@
     list-style-type: none;
 }
 .list__menu .item__menu{
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 20px 0;
     width: calc(100%/6);
     text-align: center;
@@ -80,11 +80,18 @@
     color:white;
     font-weight: 500;
     position: relative;
+    text-transform: uppercase;
 }
 .list__menu .item__menu:hover{
     color: white;
 
     
+}
+
+.center__ele{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .list__menu .item__menu:hover .submenu{
     display: block;
@@ -156,6 +163,10 @@
     outline: none;
     
     text-decoration: none;
+}
+.btn__primary:hover{
+    background:#333;
+    color: white;
 }
 .custome__carousel div img{
     width: 100%;

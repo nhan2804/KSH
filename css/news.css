@@ -1,0 +1,22 @@
+.breadcrumb{
+    font-size: 1rem;
+}
+.time__post{
+    font-size: 0.8rem;
+}
+.info__post{
+    padding: 4px 8px;
+}
+.post{
+    box-shadow: 2px 3px 4px #ccc;
+    
+}
+.img__post{
+    overflow: hidden;
+}
+.post img{
+    transition: all 0.4s;
+}
+.post img:hover{
+    transform: scale(1.2);
+}

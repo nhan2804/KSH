@@ -156,7 +156,6 @@
     font-size: 24px;
 }
 .btn__primary{
-   
     color: white;
     border: 2px solid white;
     padding: 8px 20px;
@@ -307,6 +306,15 @@ footer .images-gellary ul li {
 }
 footer .images-gellary ul li:nth-child(3n) {
     margin: 0 0 1%;
+}
+.icon__home{
+    color: #00aff2;
+}
+.icon__mail{
+    color: #ea4335;
+}
+.icon__phone{
+    color: #1ab7ea;
 }
 
 

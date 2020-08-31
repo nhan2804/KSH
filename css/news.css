@@ -20,3 +20,69 @@
 .post img:hover{
     transform: scale(1.2);
 }
+
+.news-title {
+	color: #000;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 22px;
+    font-weight: bold;
+    /*line-height: */
+}
+
+.desc__post {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.info__post {
+	padding-bottom: 20px;
+}
+
+.main-post-title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.main-post-time {
+	margin-top: 20px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid gray;
+	color: gray;
+}
+
+.main-post-content {
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.main-post-img {
+	text-align: center;
+	margin: 20px;
+}
+
+.main-post-img img {
+	width: 70%;
+}
+
+.sub-post-title {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    color: #000;
+    font-weight: bold;
+	font-size: 18px;
+}
+
+.sub-post-desc {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}

@@ -17,7 +17,7 @@
     <div class="web">
         <div class="wrap__header pt-1 pb-1 sticky__pined">
           <div class="container header__section1">
-              <img src="img/logo.png" class="logo" alt="">
+              <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
               <ul class="list__header">
                   <li><i class="fas fa-align-left"></i> Giới thiệu</li>
                   <li><i class="fas fa-award"></i> Chất lượng dịch vụ</li>
@@ -31,31 +31,70 @@
       </div>
         <div class="header">
             <!-- Đưa section 1 ra để dùng sticky :v cơ mà hình như sai r, để tui sửa lại -->
-            <div style="background:rgb(102, 101, 109);" class="wrap__header">
+            <div class="wrap__header header__bg">
                 <div class="container header__section2">
                     <ul class="list__menu p-0 m-0">
-                        <li class="item__menu">Trang chủ</li>
-                        <li class="item__menu"><a href="#">Sản phẩm </a><i class="fas fa-chevron-down"></i>
+                        <li class="item__menu">
+                          <a href="index.html" class="item__menu-link">Trang chủ</a>
+                        </li>
+                        <li class="item__menu">
+                          <a href="javascript:avoid(0)" class="item__menu-link">
+                            Sản phẩm<i class="fas fa-chevron-down" style="margin-left: 4px"></i>
+                          </a>
                           <ul class="submenu p-0">
-                              <li >Hàng hóa Bla bla nè</li>
-                              <li>Lorem Suscipit nulla accusamus</li>
-                              <li>Bakemono Lorem is pud</li>
-                              <li>Ichika Natsukis</li>
+                                <li>
+                                  <a href="#" target="_blank" class="header-major__link">Nội thất Xuân Hòa Đà Nẵng</a>
+                                </li>
+                                <li>
+                                  <a href="#" target="_blank" class="header-major__link">Nội thất Xuân Hòa Đà Nẵng</a>
+                                </li>
+                                <li>
+                                  <a href="#" target="_blank" class="header-major__link">Nội thất Xuân Hòa Đà Nẵng</a>
+                                </li>
                           </ul>
                         </li>
-                        <li class="item__menu">Các lĩnh vực <i class="fas fa-chevron-down"></i>
+                        <li class="item__menu">
+                          <a href="javascript:avoid(0)" class="item__menu-link">
+                            Các lĩnh vực <i class="fas fa-chevron-down"></i>
+                          </a>
                             <ul class="submenu p-0">
-                                <li >Nội Thất văn phòng, trường học</li>
-                                <li>Mặt hàng điện tử, điện lạnh</li>
-                                <li>Dịch vụ phát triển thị trường</li>
-                                <li>Phân phối bất động sản</li>
-                                <li>Phát triển thương hiệu, tư vấn chiến lược</li>
-                                <li>Giáo dục và đào tạo</li>
+                                <li>
+                                  <a href="https://www.xuanhoa.vn/" target="_blank" class="header-major__link">Nội Thất văn phòng, trường học</a>
+                                </li>
+                                <li>
+                                  <a href="https://www.xuanhoa.vn/" target="_blank" class="header-major__link">Mặt hàng điện tử, điện lạnh</a>
+                                </li>
+                                <li>
+                                  <a href="https://www.xuanhoa.vn/" target="_blank" class="header-major__link">Dịch vụ phát triển thị trường</a>
+                                </li>
+                                <li>
+                                  <a href="https://www.xuanhoa.vn/" target="_blank" class="header-major__link">Phân phối bất động sản</a>
+                                </li>
+                                <li>
+                                  <a href="https://www.xuanhoa.vn/" target="_blank" class="header-major__link">Phát triển thương hiệu, tư vấn chiến lược</a>
+                                </li>
+                                <li>
+                                  <a href="https://www.xuanhoa.vn/" target="_blank" class="header-major__link">Giáo dục và đào tạo</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="item__menu">Công trình <i class="fas fa-chevron-down"></i></li>
-                        <li class="item__menu">Tư vấn khách hàng</li>
-                        <li class="item__menu">Bất động sản</li>
+                        <li class="item__menu">
+                          <a href="news.html" class="item__menu-link" style="background: #292626">Tin tức</a>
+                        </li>
+                        <li class="item__menu">
+                          <a href="contact.html" class="item__menu-link">Tư vấn khách hàng</a>
+                        </li>
+                        <li class="item__menu">
+                          <a href="javascript:avoid(0)" class="item__menu-link">Về KSH <i class="fas fa-chevron-down"></i></a>
+                          <ul class="submenu p-0" style="width: 100%;">
+                                <li>
+                                  <a href="general_introduce.html" class="header-major__link">Giới thiệu chung</a>
+                                </li>
+                                <li>
+                                  <a href="company_system.html" class="header-major__link">Hệ thống công ty</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -73,11 +112,14 @@
                         <div class="info__post">
                             <div class="time__post">
                                 <i class="far fa-clock"> 28/04/2001</i>
-                                <i class="far fa-eye">2009 Lượt xem</i>
+                                <i class="far fa-eye"></i>
+                                2009 Lượt xem
                             </div>
-                            <a href="#"><h4>Sản phẩm này thật tuyệt vời, chả biết nói cái gì nữ...</h4></a>
+                            <a href="detail_news.html" class="news-title">
+                              Xuân Hòa bàn giao nội thất cho Ký túc xá Đại học FPT Cần Thơ
+                            </a>
                             <div class="desc__post">
-                                <p>Lorem ipsum dolor sit amet consectetur adupiditate, fugiat quidem quae odit nam facere, exercitationem officia aliquid. Et?</p>
+                                Hơn 500 bộ giường tầng đã được Xuân Hòa hoàn thiện lắp đặt và bàn giao cho Ký túc xá Đại học FPT Cần Thơ tại địa chỉ Cầu Rau Răm, đường Nguyễn Văn Cừ nối dài, An Bình, Q. Ninh Kiều, TP. Cần Thơ ngay trước thềm năm học mới 2020 – 2021
                             </div>
                         </div>
                     </div>
@@ -90,11 +132,14 @@
                         <div class="info__post">
                             <div class="time__post">
                                 <i class="far fa-clock"> 28/04/2001</i>
-                                <i class="far fa-eye">2009 Lượt xem</i>
+                                <i class="far fa-eye"></i>
+                                2009 Lượt xem
                             </div>
-                            <a href="#"><h4>Sản phẩm này thật tuyệt vời, chả biết nói cái gì nữ...</h4></a>
+                            <a href="detail_news.html" class="news-title">
+                              Xuân Hòa bàn giao nội thất cho Ký túc xá Đại học FPT Cần Thơ
+                            </a>
                             <div class="desc__post">
-                                <p>Lorem ipsum dolor sit amet consectetur adupiditate, fugiat quidem quae odit nam facere, exercitationem officia aliquid. Et?</p>
+                                Hơn 500 bộ giường tầng đã được Xuân Hòa hoàn thiện lắp đặt và bàn giao cho Ký túc xá Đại học FPT Cần Thơ tại địa chỉ Cầu Rau Răm, đường Nguyễn Văn Cừ nối dài, An Bình, Q. Ninh Kiều, TP. Cần Thơ ngay trước thềm năm học mới 2020 – 2021
                             </div>
                         </div>
                     </div>
@@ -107,11 +152,14 @@
                         <div class="info__post">
                             <div class="time__post">
                                 <i class="far fa-clock"> 28/04/2001</i>
-                                <i class="far fa-eye">2009 Lượt xem</i>
+                                <i class="far fa-eye"></i>
+                                2009 Lượt xem
                             </div>
-                            <a href="#"><h4>Sản phẩm này thật tuyệt vời, chả biết nói cái gì nữ...</h4></a>
+                            <a href="detail_news.html" class="news-title">
+                              Xuân Hòa bàn giao nội thất cho Ký túc xá Đại học FPT Cần Thơ
+                            </a>
                             <div class="desc__post">
-                                <p>Lorem ipsum dolor sit amet consectetur adupiditate, fugiat quidem quae odit nam facere, exercitationem officia aliquid. Et?</p>
+                                Hơn 500 bộ giường tầng đã được Xuân Hòa hoàn thiện lắp đặt và bàn giao cho Ký túc xá Đại học FPT Cần Thơ tại địa chỉ Cầu Rau Răm, đường Nguyễn Văn Cừ nối dài, An Bình, Q. Ninh Kiều, TP. Cần Thơ ngay trước thềm năm học mới 2020 – 2021
                             </div>
                         </div>
                     </div>
@@ -124,11 +172,14 @@
                         <div class="info__post">
                             <div class="time__post">
                                 <i class="far fa-clock"> 28/04/2001</i>
-                                <i class="far fa-eye">2009 Lượt xem</i>
+                                <i class="far fa-eye"></i>
+                                2009 Lượt xem
                             </div>
-                            <a href="#"><h4>Sản phẩm này thật tuyệt vời, chả biết nói cái gì nữ...</h4></a>
+                            <a href="detail_news.html" class="news-title">
+                              Xuân Hòa bàn giao nội thất cho Ký túc xá Đại học FPT Cần Thơ
+                            </a>
                             <div class="desc__post">
-                                <p>Lorem ipsum dolor sit amet consectetur adupiditate, fugiat quidem quae odit nam facere, exercitationem officia aliquid. Et?</p>
+                                Hơn 500 bộ giường tầng đã được Xuân Hòa hoàn thiện lắp đặt và bàn giao cho Ký túc xá Đại học FPT Cần Thơ tại địa chỉ Cầu Rau Răm, đường Nguyễn Văn Cừ nối dài, An Bình, Q. Ninh Kiều, TP. Cần Thơ ngay trước thềm năm học mới 2020 – 2021
                             </div>
                         </div>
                     </div>
@@ -141,11 +192,14 @@
                         <div class="info__post">
                             <div class="time__post">
                                 <i class="far fa-clock"> 28/04/2001</i>
-                                <i class="far fa-eye">2009 Lượt xem</i>
+                                <i class="far fa-eye"></i>
+                                2009 Lượt xem
                             </div>
-                            <a href="#"><h4>Sản phẩm này thật tuyệt vời, chả biết nói cái gì nữ...</h4></a>
+                            <a href="detail_news.html" class="news-title">
+                              Xuân Hòa bàn giao nội thất cho Ký túc xá Đại học FPT Cần Thơ
+                            </a>
                             <div class="desc__post">
-                                <p>Lorem ipsum dolor sit amet consectetur adupiditate, fugiat quidem quae odit nam facere, exercitationem officia aliquid. Et?</p>
+                                Hơn 500 bộ giường tầng đã được Xuân Hòa hoàn thiện lắp đặt và bàn giao cho Ký túc xá Đại học FPT Cần Thơ tại địa chỉ Cầu Rau Răm, đường Nguyễn Văn Cừ nối dài, An Bình, Q. Ninh Kiều, TP. Cần Thơ ngay trước thềm năm học mới 2020 – 2021
                             </div>
                         </div>
                     </div>
@@ -158,32 +212,19 @@
                         <div class="info__post">
                             <div class="time__post">
                                 <i class="far fa-clock"> 28/04/2001</i>
-                                <i class="far fa-eye">2009 Lượt xem</i>
+                                <i class="far fa-eye"></i>
+                                2009 Lượt xem
                             </div>
-                            <a href="#"><h4>Sản phẩm này thật tuyệt vời, chả biết nói cái gì nữ...</h4></a>
+                            <a href="detail_news.html" class="news-title">
+                              Xuân Hòa bàn giao nội thất cho Ký túc xá Đại học FPT Cần Thơ
+                            </a>
                             <div class="desc__post">
-                                <p>Lorem ipsum dolor sit amet consectetur adupiditate, fugiat quidem quae odit nam facere, exercitationem officia aliquid. Et?</p>
+                                Hơn 500 bộ giường tầng đã được Xuân Hòa hoàn thiện lắp đặt và bàn giao cho Ký túc xá Đại học FPT Cần Thơ tại địa chỉ Cầu Rau Răm, đường Nguyễn Văn Cừ nối dài, An Bình, Q. Ninh Kiều, TP. Cần Thơ ngay trước thềm năm học mới 2020 – 2021
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-3">
-                    <div class="post">
-                        <div class="img__post">
-                            <img class="img-fluid" src="https://kinhnghiemlamnha.net/wp-content/uploads/2017/05/phao-chi-la-gi-phan-loai-phao-chi-trang-tri-1.jpg" alt="">
-                        </div>
-                        <div class="info__post">
-                            <div class="time__post">
-                                <i class="far fa-clock"> 28/04/2001</i>
-                                <i class="far fa-eye">2009 Lượt xem</i>
-                            </div>
-                            <a href="#"><h4>Sản phẩm này thật tuyệt vời, chả biết nói cái gì nữ...</h4></a>
-                            <div class="desc__post">
-                                <p>Lorem ipsum dolor sit amet consectetur adupiditate, fugiat quidem quae odit nam facere, exercitationem officia aliquid. Et?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
             <div class="center__ele">
                 <a style="border-color:black;color:black " href="" class="btn__primary">Xem thêm</a>
@@ -212,16 +253,16 @@
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Sản phẩm</h6>
         <p>
-          <a href="#!">Nội thất</a>
+          <a href="https://www.xuanhoa.vn/" class="footer-item" target="_blank">Nội thất</a>
         </p>
         <p>
-          <a href="#!">Kinh doanh</a>
+          <a href="#!" class="footer-item">Kinh doanh</a>
         </p>
         <p>
-          <a href="#!">Giáo dục</a>
+          <a href="#!" class="footer-item">Giáo dục</a>
         </p>
         <p>
-          <a href="#!">Bất động sản</a>
+          <a href="#!" class="footer-item">Bất động sản</a>
         </p>
       </div>
       <!-- Grid column -->
@@ -232,16 +273,16 @@
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Liên kết</h6>
         <p>
-          <a href="#!">Tài khoản</a>
+          <a href="#!" class="footer-item">Tài khoản</a>
         </p>
         <p>
-          <a href="#!">Trở thành đối tác</a>
+          <a href="#!" class="footer-item">Trở thành đối tác</a>
         </p>
         <p>
-          <a href="#!">Take me</a>
+          <a href="#!" class="footer-item">Take me</a>
         </p>
         <p>
-          <a href="#!">Trợ giúp</a>
+          <a href="#!" class="footer-item">Trợ giúp</a>
         </p>
       </div>
 
@@ -252,13 +293,13 @@
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Liên hệ</h6>
         <p>
-          <i class="fas fa-home mr-3"></i> Số 5 Xô Viết Nghệ Tĩnh, Hoà Cường Nam, Hải Châu, Đà Nẵng</p>
+          <i class="fas fa-home mr-1 icon__home"></i> Số 5 Xô Viết Nghệ Tĩnh, Hoà Cường Nam, Hải Châu, Đà Nẵng</p>
         <p>
-          <i class="fas fa-envelope mr-3"></i> ksh@gmail.com</p>
+          <i class="fas fa-envelope mr-1 icon__mail"></i> ksh@gmail.com</p>
         <p>
-          <i class="fas fa-phone mr-3"></i> Tel + 0236.3680666</p>
+          <i class="fas fa-phone mr-1 icon__phone"></i> Tel + 0236.3680666</p>
         <p>
-          <i class="fas fa-print mr-3"></i> Fax + 0236.3680799</p>
+          <i class="fas fa-print mr-1 icon__fax"></i> Fax + 0236.3680799</p>
       </div>
       <!-- Grid column -->
 

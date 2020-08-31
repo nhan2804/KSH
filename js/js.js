@@ -12,3 +12,17 @@ $('.multiple-items').slick({
     prevArrow: false,
     nextArrow: false
   });
+  $(".page").hide();
+$('.page').click(function() {
+	$('body,html').animate({
+	scrollTop: 0
+	})
+	});
+	$(window).scroll(function () {
+	var e = $(window).scrollTop();
+	if (e > 300) {
+		$(".page").show();
+	} else {
+		$(".page").hide();
+	}
+});
